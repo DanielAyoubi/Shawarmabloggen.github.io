@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shawarma in Aarhus</title>
+  <title>Shawarma Steder in Aarhus</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -21,28 +21,55 @@
     img {
       max-width: 100%;
     }
+    .rating {
+      font-size: 1.5em;
+      color: gold;
+      margin-top: 10px;
+    }
+    .shawarma-facts {
+      background-color: #f9f9f9;
+      border-left: 5px solid #ff5722;
+      padding: 10px;
+      margin-top: 30px;
+    }
+    .shawarma-facts h2 {
+      color: #ff5722;
+    }
+    .shawarma-facts ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Shawarma Stores in Aarhus, Denmark</h1>
-    <p>A simple blog reviewing the best shawarma spots in town!</p>
+    <h1>Shawarma Steder in Aarhus, Denmark</h1>
+    <p>En simpel blog til at anmelde diverse shawarma steder i Århus og omegn</p>
   </header>
 
   <main>
     <div class="shawarma-store">
-      <h2>Store 1: Shawarma Palace</h2>
-      <img src="images/hos_bilal.jpg" alt="Shawarma Palace Storefront">
-      <p>Shawarma Palace has a cozy atmosphere with amazing lamb shawarma. It's located near the city center and offers a variety of toppings.</p>
+      <h2>Sted 1: Hos Bilal</h2>
+      <img src="images/hos_bilal.jpg" alt="Hos Bilal Storefront">
+      <p>Hos Bilal er ikke bare et shawarma-sted, det er en institution i Århus – måske lige så berømt som den lokale busrute til Bazar Vest...</p>
+      
+      <!-- Star Rating -->
+      <div class="rating">
+        <span>Rating: </span>
+        <span class="stars">⭐⭐⭐⭐✰</span> <!-- 4 out of 5 stars -->
+      </div>
     </div>
 
-    <!-- <div class="shawarma-store"> -->
-    <!--   <h2>Store 2: Pita House</h2> -->
-    <!--   <img src="images/shawarma-store-2.jpg" alt="Pita House Storefront"> -->
-    <!--   <p>Pita House is known for its crispy falafel and fresh ingredients. They have a loyal following and are a must-visit for shawarma lovers.</p> -->
-    <!-- </div> -->
+    <!-- Fun Shawarma Facts Section -->
+    <section class="shawarma-facts">
+      <h2>Fun Shawarma Facts!</h2>
+      <ul>
+        <li>Did you know? The word "shawarma" comes from the Turkish word "çevirme," meaning "turning" – a reference to how the meat is cooked on a rotisserie!</li>
+        <li>Shawarma is one of the most popular street foods in the world, especially in the Middle East, but its origins trace back to the Ottoman Empire.</li>
+        <li>The largest shawarma ever made weighed over 4,000 pounds! That’s a lot of wraps!</li>
+      </ul>
+    </section>
 
-    <!-- Add more stores as needed -->
   </main>
 
   <footer>
