@@ -1,3 +1,10 @@
+/* Global styles */
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
  /* The sidebar menu */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -36,3 +43,37 @@
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 } 
+
+/* Shawarma store review styles */
+.shawarma-store {
+  margin-bottom: 40px;
+}
+
+.rating {
+  font-size: 1.5em;
+  color: gold;
+  margin-top: 10px;
+}
+
+/* Fun facts section */
+.shawarma-facts {
+  background-color: #f9f9f9;
+  border-left: 5px solid #ff5722;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.shawarma-facts h2 {
+  color: #ff5722;
+}
+
+/* Responsive sidebar for small screens */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 14px;
+  }
+}
+
