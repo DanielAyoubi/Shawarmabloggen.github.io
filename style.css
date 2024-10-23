@@ -43,9 +43,13 @@ body {
   margin-top: -60px; /* Prevent layout shift */
 }
 
-.shawarma-store img {
+img {
   max-width: 100%;  /* Ensure the image fits within the container */
   height: auto;     /* Maintain aspect ratio */
+}
+
+header {
+  text-align: center;
 }
 
 .rating {
