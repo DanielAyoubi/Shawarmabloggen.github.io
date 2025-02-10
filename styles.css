@@ -1,0 +1,166 @@
+/* Reset & Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Container */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header & Navigation */
+  header {
+    background: #1f2a38; /* deep charcoal/navy */
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    text-align: center;
+    font-size: 2.5em;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #a0b0c0; /* light gray-blue accent */
+  }
+  
+  /* City Sections */
+  .city-section {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .city-section h2 {
+    border-bottom: 2px solid #1f2a38;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #1f2a38;
+  }
+  
+  /* Reviews Grid */
+  .reviews {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .review {
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .review img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  .rating {
+    font-size: 1.2em;
+    color: #3a6ea5; /* professional blue accent */
+    margin: 10px 0;
+  }
+  
+  /* Read More Link */
+  .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #1f2a38;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #1f2a38;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .read-more:hover {
+    background: #1f2a38;
+    color: #fff;
+  }
+  
+  /* Fact Box */
+  .fact-box {
+    background: #e9eff4;
+    border: 2px dashed #1f2a38;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .fact-box h3 {
+    margin-bottom: 10px;
+    color: #1f2a38;
+  }
+  
+  .fact-box p {
+    margin-bottom: 15px;
+    font-style: italic;
+    color: #333;
+  }
+  
+  .fact-box button {
+    background: #1f2a38;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .fact-box button:hover {
+    background: #3a6ea5;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+  }
+  
+  /* Full Review Page (if additional styling is needed) */
+  .full-review img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
